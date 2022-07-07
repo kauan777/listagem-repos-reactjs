@@ -1,0 +1,53 @@
+.repository-list {
+    max-width: 700px;
+    margin: 4rem auto 0rem auto;
+
+    h1 {
+        margin-bottom: 16px;
+        color: #272727;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        display: grid;
+        gap: 2rem;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #272727;
+            background: #fff;
+            padding: 1rem;
+            height: 150px;
+            border-radius: .25rem;
+
+            strong {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                color: #757575;
+            }
+
+            a {
+                display: inline-block;
+                margin-top: .5rem;
+                color: #fff;
+                text-align: center;
+                padding: 12px 2rem;
+                border-radius: .25rem;
+                text-decoration: none;
+                background: #272727;
+                transition: .2s ease all;
+
+                &:hover{
+                background: #202020;
+                font-size: 15.8px;
+                }
+            }
+        }
+    }
+}
